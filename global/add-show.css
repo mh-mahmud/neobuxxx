@@ -1,0 +1,68 @@
+.ptcbox-w1 {
+	background: url("ptcbox-bg1.jpg") 0px 0px no-repeat;
+	width: 340px;
+	height: 65px;
+	float: left;
+	margin:  6px 0px 0px 11px;
+	cursor: pointer;
+}
+
+.ptcbox-w1.hover {
+	background: url("ptcbox-bg1.jpg") 0px -65px no-repeat;
+}
+
+.ptcbox-title {
+	float: left;
+	width: 245px;
+	height: 23px;
+	margin: 18px 0px 0px 10px;
+	font-size: 14px;
+	color: #232323;
+	font-weight: bold;
+	text-shadow: white 1px 1px 1px;
+	overflow: hidden;
+}
+.ptcbox-value-w1 {
+	float: right;
+	width: 81px;
+	height: 65px;
+	padding: -1000px;
+	clear: both;
+}
+.ptcbox-value {
+	text-align: center;
+	font-size: 27px;
+	padding: 10px 5px 5px 0px;
+	font-weight: bold;
+	color: black;
+	text-shadow: white 1px 1px 1px;
+}
+.ptcbox-value a {
+    color: #333;
+    text-decoration: none;
+}
+
+.ptcbox-value a:hover 
+{
+     color:red; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+.ptcbox-seconds {
+	text-align: center;
+	font-size: 11px;
+	margin-top: -8px;
+}
+
+.ptcbox-clicks {
+	float: left;
+	font-size: 11px;
+	margin: 0px 10px 0px 10px;
+}
+
+#ptc-count {
+	float: right;
+	position: relative;
+	margin: -31px 11px 0px 0px;
+	font-weight: bold;
+}

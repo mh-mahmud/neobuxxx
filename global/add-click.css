@@ -1,0 +1,103 @@
+
+body {
+	padding: 0px;
+	margin: 0px;    
+	font-size: 14px;
+	 background: url("timer-bg1.jpg") 76px -20px no-repeat white;
+	 color: #454545;
+}
+a {
+	 color: #3B2084;
+	 text-decoration: none;
+}
+a:hover {
+	 color: #ec4c60;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none;
+	display: block;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+img {
+	border: none;
+}
+#buttons {
+	display: none;
+	float: left;
+	padding: 24px 0px 0px 0px;
+}
+#buttons li {
+	padding: 0px 1px 0px;
+}
+/*#menu {
+	float: right;
+	text-align: center;
+	font-size: 12px;
+	margin: 10px;
+}
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+#menu li {
+	padding: 0px 15px 0px 0px;
+	text-align: center;
+	list-style: none;
+	display: inline;
+}*/
+#timer {
+	float: left;
+	padding: 25px 25px 0px 15px;
+	font-size: 28px;
+	text-align: left;
+	
+	color: #343434;
+	font-family: helvetica;
+}
+
+#banner {
+	width: 468px;
+	height: 60px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background-color: #e8e8e8;
+	overflow: hidden;
+}
+#banner img {
+	width: 468px;
+	height: 60px;   
+}
+
+#logo {
+	 float: left;
+	 margin: 5px 0px 0px 15px;
+	 width: 179px;
+	 height: 70px;
+	 background: url("logo-icon-bg2.png") top left no-repeat;
+	 
+}
+#outsidetxt {
+	float: left; 
+	font-size: 22px; 
+	margin: 26px 0px 0px 15px;
+}
+.space {
+	overflow: hidden !important;
+	/*border-top: 5px solid #333;*/
+	width: 100%;
+	padding-top: 30px;
+}
+.show-add {
+	overflow: hidden !important;
+	border-top: 5px solid #333;
+	width: 100%;
+	/*padding-top: 20px;*/
+}
